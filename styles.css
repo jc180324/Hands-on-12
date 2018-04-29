@@ -70,8 +70,9 @@ img {
 .header{
     background-color: #f1f1f1;
     padding: 20px;
-    text-align: center;
+	text-align: center;
 }
+	
 .footer {
 	padding: 20px;
 	text-align: center;
@@ -114,6 +115,23 @@ input[type=submit]:hover {
 	padding: 20px;
 }
 
+.container {
+    position: relative; 
+    max-width: 800px; /* Maximum width */
+	margin: 0 auto; /* Center it */
+	
+}
+.container img {vertical-align: middle;}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
 .col-25 {
 	float: left;
 	width: 25%;
@@ -142,4 +160,13 @@ input[type=submit]:hover {
     position: relative;
     text-align: center;
     color: white;
+}
+.text-block {
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    background-color: black;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
