@@ -4,7 +4,7 @@
 }
 .nested > div{
 	background:#eee;
-	padding: 1em
+	
 }
 .wrapper > div:nth-child(odd){
 	background:#ddd;
@@ -16,6 +16,7 @@
 	padding: 1em;
 	grid-gap: 1em;
 	justify-items: end
+	
 }
 .wrapper{
 display:grid;
@@ -55,11 +56,11 @@ justify-items: end
 	color: black;
 }
 
-/* Style the content */
-.content {
-	margin-left: 200px;
-	padding-left: 20px;
+.topnav {
+	background-color: #ddd;
+	color: black;
 }
+
 img {
 	border: 1px solid #ddd;
 	border-radius: 4px;
@@ -112,12 +113,12 @@ input[type=submit]:hover {
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
-	padding: 20px;
+	padding: 22px;
 }
 
 .container {
     position: relative; 
-    max-width: 800px; /* Maximum width */
+    max-width: 675px; /* Maximum width */
 	margin: 0 auto; /* Center it */
 	
 }
